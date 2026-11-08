@@ -1,0 +1,25 @@
+# Dados que NUNCA devem ir para o repositório público
+*.csv
+*.log
+diagnostico_*.txt
+relatorio*.txt
+manifesto*
+
+# Chaves e segredos
+*.pem
+*.key
+id_*
+!id_*.md
+*.pass
+.env
+
+# Imagens de disco
+*.iso
+*.img
+
+# Sistema / editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+__pycache__/

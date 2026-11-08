@@ -1,0 +1,23 @@
+# /etc/systemd/system/x11vnc.service
+# Projeto Renascer CCE F4030 - exemplo sanitizado
+#
+# Criar a senha (VNC usa no máximo 8 caracteres):
+#   sudo x11vnc -storepasswd /etc/x11vnc.pass && sudo chmod 600 /etc/x11vnc.pass
+# Ativar:
+#   sudo systemctl daemon-reload && sudo systemctl enable --now x11vnc
+#
+# Segurança: a porta 5900 só é liberada no ufw para a interface tailscale0.
+
+[Unit]
+Description=x11vnc - acesso remoto à tela (somente via Tailscale)
+After=display-manager.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/x11vnc -auth guess -display :0 -forever -loop -noxdamage -repeat -shared -rfbauth /etc/x11vnc.pass -rfbport 5900
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target
