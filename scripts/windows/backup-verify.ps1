@@ -13,7 +13,7 @@
 .EXAMPLE
     .\backup-verify.ps1 -Origem "D:\Backup" -Manifesto "D:\manifesto.csv"
 .NOTES
-    Projeto Renascer CCE F4030 - Julio Oliver
+    Projeto Renascer CCE F4030 - Julio Oliveira
     O manifesto contém nomes de arquivos: NÃO publique o CSV.
 #>
 param(
