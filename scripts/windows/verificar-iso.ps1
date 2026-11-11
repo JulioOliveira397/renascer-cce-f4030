@@ -10,7 +10,7 @@
 .EXAMPLE
     .\verificar-iso.ps1 -Iso .\linuxmint-22.3-xfce-64bit.iso -ArquivoSha256 .\sha256sum.txt
 .NOTES
-    Projeto Renascer CCE F4030 - Julio Oliver
+    Projeto Renascer CCE F4030 - Julio Oliveira
     Ideal: verificar também a assinatura GPG do sha256sum.txt (sha256sum.txt.gpg).
 #>
 param(
