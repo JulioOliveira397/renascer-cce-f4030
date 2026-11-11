@@ -108,7 +108,7 @@ Este repositório **não contém** arquivos, nomes de arquivos, nomes de usuári
 
 ## 👤 Autor
 
-**Julio Oliver**, estudante de Cibersegurança (Cisco CCST Redes + Ciber)
+**Julio Oliveira**, estudante de Cibersegurança (Cisco CCST Redes + Ciber)
 [GitHub](https://github.com/JulioOliveira397) · [LinkedIn](https://www.linkedin.com/in/julio-oliver-tech)
 
 Licença: [MIT](LICENSE)
