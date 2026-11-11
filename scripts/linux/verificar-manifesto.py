@@ -13,7 +13,7 @@ Saída:
 
 Código de saída: 0 se tudo idêntico, 1 se houver divergências, 2 em erro de uso.
 
-Projeto Renascer CCE F4030 - Julio Oliver
+Projeto Renascer CCE F4030 - Julio Oliveira
 """
 from __future__ import annotations
 
