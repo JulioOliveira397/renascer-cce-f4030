@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Auditoria rápida do hardening (somente leitura - não altera nada).
 # Uso: sudo bash auditoria-hardening.sh [usuario_do_dia_a_dia]
-# Projeto Renascer CCE F4030 - Julio Oliver
+# Projeto Renascer CCE F4030 - Julio Oliveira
 
 set -uo pipefail
 
