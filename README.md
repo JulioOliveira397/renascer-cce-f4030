@@ -8,6 +8,8 @@
 ![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/acesso%20remoto-Tailscale%20%2B%20SSH-242424)
 
+🇬🇧 [Read in English](README.en.md)
+
 ---
 
 ## 📌 Contexto
@@ -56,6 +58,7 @@ O boot ficou cerca de **4× mais rápido** sem trocar nenhuma peça.
 ```
 renascer-cce-f4030/
 ├── README.md
+├── README.en.md               # versão em inglês
 ├── docs/
 │   ├── 01-diagnostico.md          # hardware, medições e achados de segurança
 │   ├── 02-backup-e-restauracao.md # estratégia 3-2-1, manifesto SHA-256, rclone
@@ -106,6 +109,6 @@ Este repositório **não contém** arquivos, nomes de arquivos, nomes de usuári
 ## 👤 Autor
 
 **Julio Oliver**, estudante de Cibersegurança (Cisco CCST Redes + Ciber)
-[GitHub](https://github.com/JulioOliveira397) · [LinkedIn](https://www.linkedin.com/in/júlio-cesar-santos-daltro-de-oliveira-98054a314)
+[GitHub](https://github.com/JulioOliveira397) · [LinkedIn](https://www.linkedin.com/in/julio-oliver-tech)
 
 Licença: [MIT](LICENSE)
