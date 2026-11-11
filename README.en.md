@@ -140,7 +140,7 @@ This repository contains **no** files, file names, usernames, hostname, serial n
 
 ## 👤 Author
 
-**Julio Oliver**, Cybersecurity student (Cisco CCST Networking + Cybersecurity)
+**Julio Oliveira**, Cybersecurity student (Cisco CCST Networking + Cybersecurity)
 [GitHub](https://github.com/JulioOliveira397) · [LinkedIn](https://www.linkedin.com/in/julio-oliver-tech)
 
 License: [MIT](LICENSE)
