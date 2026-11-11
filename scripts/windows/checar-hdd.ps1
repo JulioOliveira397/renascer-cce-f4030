@@ -8,7 +8,7 @@
 .EXAMPLE
     Execute como administrador: .\checar-hdd.ps1
 .NOTES
-    Projeto Renascer CCE F4030 - Julio Oliver
+    Projeto Renascer CCE F4030 - Julio Oliveira
 #>
 
 $ErrorActionPreference = 'Stop'
