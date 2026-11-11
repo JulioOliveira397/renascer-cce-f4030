@@ -8,7 +8,7 @@
 .EXAMPLE
     powershell -ExecutionPolicy Bypass -File .\diagnostico.ps1
 .NOTES
-    Projeto Renascer CCE F4030 - Julio Oliver
+    Projeto Renascer CCE F4030 - Julio Oliveira
     Remova dados pessoais (usuário, hostname, serial) antes de publicar o relatório.
 #>
 
